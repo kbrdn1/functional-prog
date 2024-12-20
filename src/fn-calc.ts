@@ -1,4 +1,4 @@
-type Operation = (a: number) => (b: number) => number;
+import type { Operation } from "./types";
 
 // Define basic arithmetic operations
 export const add: Operation = (a) => (b) => a + b;
